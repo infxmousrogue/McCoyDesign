@@ -1,0 +1,107 @@
+.cardText {
+    transition: .5s ease;
+    z-index: 1;
+    color: white;
+    transition: .5s ease-in-out;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.card:hover .cardText {
+    transition: .5s ease;
+    opacity: 1;
+    z-index: 1;
+}
+
+.card:hover .d-flex {
+    transition: .5s ease;
+    z-index: -1;
+    transition: .5s ease-in-out;
+    opacity: 0.4;
+    filter: blur(2px);
+}
+
+@keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 1;
+    }
+    1% {
+        display: block;
+        opacity: 1;
+    }
+    100% {
+        display: block;
+        opacity: 0.4;
+        filter: blur(2px);
+    }
+}
+
+@keyframes fadeFromNone {
+    0% {
+        display: none;
+        opacity: 0.3;
+    }
+    1% {
+        display: block;
+        opacity: 0.3;
+    }
+    100% {
+        display: block;
+        opacity: 1;
+        color: white;
+    }
+}
+
+.card {
+    transition: .5s ease-in-out;
+    opacity: 1;
+    z-index: -1;
+}
+
+.bodymovinanim1 {
+    width: 90%;
+    max-width: 200px;
+    top: 10%;
+    position: absolute;
+}
+
+.bodymovinanim2 {
+    width: 90%;
+    max-width: 200px;
+    top: 10%;
+    position: absolute;
+}
+
+.bodymovinanim3 {
+    width: 90%;
+    max-width: 200px;
+    top: 10%;
+    position: absolute;
+}
+
+.bodymovinanim4 {
+    width: 90%;
+    max-width: 200px;
+    top: 10%;
+    position: absolute;
+}
+
+.bodymovinanim5 {
+    width: 90%;
+    max-width: 200px;
+    top: 10%;
+    position: absolute;
+}
+
+.bodymovinanim6 {
+    width: 90%;
+    max-width: 200px;
+    top: 10%;
+    position: absolute;
+}
