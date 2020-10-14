@@ -72,12 +72,14 @@ pre {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
+    cursor: pointer;
 }
 
 .card:hover .cardText {
     transition: .5s ease;
     opacity: 1;
     z-index: 1;
+    cursor: pointer;
 }
 
 .card:hover .d-flex {
@@ -86,6 +88,7 @@ pre {
     transition: .5s ease-in-out;
     opacity: 0.4;
     filter: blur(2px);
+    cursor: pointer;
 }
 
 @keyframes fadeInFromNone {
